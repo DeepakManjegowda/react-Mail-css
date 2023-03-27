@@ -1,0 +1,54 @@
+.container {
+  padding: 16px 16px;
+}
+
+img {
+  width: 20%;
+  border-radius: 5px;
+  /* overflow-clip-margin: content-box;
+  overflow: clip; */
+}
+/* .imgs {
+  border-radius: 4px;
+} */
+
+/* .imgs {
+  vertical-align: middle;
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border-radius: 4px;
+  position: relative;
+  animation: animatetop 0.4s;
+  width: 20%;
+} */
+h5,
+h4 {
+  font-family: "RobotoDraft", "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 12px 0;
+  font-size: 20px;
+}
+.opacity {
+  color: rgba(0, 0, 0, 0.5);
+}
+.reply-button {
+  color: black;
+  font-size: 15px;
+  padding: 8px 16px;
+}
+.reply-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+p {
+  display: block;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.icon {
+  padding: 8px 16px;
+}
+
+.faPadding {
+  padding: 0px 16px !important;
+}

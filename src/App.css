@@ -1,0 +1,158 @@
+.sidebar {
+  height: 890px;
+  width: 315px;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+  overflow: auto;
+}
+.body-text {
+  margin-left: 315px;
+  font-size: 18px;
+}
+
+.btn-box {
+  padding: 16px;
+  display: block;
+  color: black;
+}
+.close {
+  display: flex;
+  align-items: center;
+}
+.btn-box img {
+  width: 65%;
+}
+/* .outlook {
+  background-color: hsl(0, 0%, 90%);
+}
+.img1 {
+  width: 55% !important;
+  padding-left: 40px;
+} */
+.btn-box:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.dark-grey {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #616161;
+}
+.dark-grey:hover {
+  background-color: black;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.btn-box.dark-grey {
+  height: 32px;
+}
+.pencil {
+  font-size: 13px;
+  padding: 8px 16px;
+}
+.baricon {
+  margin-top: 16px;
+  font-size: 24px;
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.onClick {
+  display: block;
+}
+.margin-top {
+  margin-top: 5px;
+}
+.colorRed {
+  color: #fff !important;
+  background-color: red;
+}
+.inboxdiv {
+  display: block;
+}
+.divHide {
+  display: none !important;
+}
+.divShow {
+  display: block !important;
+  position: relative;
+  animation: forwards 1s;
+}
+
+/* .w3-bar-item {
+  padding: 16px;
+  display: block;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+  user-select: none;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+}
+.w3-bar-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+} */
+/* .overlay {
+  position: fixed;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+} */
+
+.newmail {
+  float: right;
+  background-color: #f44336;
+  color: #fff;
+  padding: 12px 15px;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-right: 16px;
+}
+.baricon:hover {
+  background-color: #ccc;
+}
+.newmail:hover {
+  background-color: #ccc;
+  color: black;
+}
+@media screen and (min-width: 993px) {
+  .baricon {
+    display: none;
+  }
+  .newmail {
+    display: none;
+  }
+  .close {
+    display: none;
+  }
+
+  .sidebar {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 993px) {
+  .sidebar {
+    display: none;
+  }
+
+  .body-text {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+}
