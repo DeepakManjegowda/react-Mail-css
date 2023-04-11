@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-download Zip code file 
+download the Zip code file extract in folder and  
  install all dependencies(packages) by giving 
  ### `npm install`
 
