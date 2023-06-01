@@ -1,10 +1,6 @@
 import { useState } from "react";
 import "./Inbox.css";
 const Inbox = (props) => {
-  //   if (!props.demoShow) {
-  //     return null;
-  //   }
-  //   onMail("raju");
   const onMail = (e, personName) => {
     var i;
     var x = document.getElementsByClassName("person");
