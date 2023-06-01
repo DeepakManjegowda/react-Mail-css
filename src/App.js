@@ -39,7 +39,6 @@ function App() {
       <div id="mySidebar" className="sidebar">
         <a href="#" className="btn-box outlook">
           <img
-            // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Fgbl_QtaRWeC-TSD6VuIsF15OKv3-VgHGQ&usqp=CAU"
             src="https://www.w3schools.com/images/w3schools.png"
             alt="w3schools"
             className="img1"

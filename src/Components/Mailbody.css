@@ -5,23 +5,9 @@
 img {
   width: 20%;
   border-radius: 5px;
-  /* overflow-clip-margin: content-box;
-  overflow: clip; */
+  
 }
-/* .imgs {
-  border-radius: 4px;
-} */
 
-/* .imgs {
-  vertical-align: middle;
-  border-style: none;
-  overflow-clip-margin: content-box;
-  overflow: clip;
-  border-radius: 4px;
-  position: relative;
-  animation: animatetop 0.4s;
-  width: 20%;
-} */
 h5,
 h4 {
   font-family: "RobotoDraft", "Roboto", sans-serif;

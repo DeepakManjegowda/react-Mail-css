@@ -1,5 +1,4 @@
 .bgModel {
-  /* padding-top: 100px; */
   position: fixed;
   z-index: 4;
   display: block;
@@ -11,7 +10,6 @@
   padding-top: 100px;
 }
 .modal {
-  /* height: 575px; */
   margin: auto;
   background-color: #fff;
 }
@@ -78,24 +76,7 @@ hr {
   margin-bottom: 10px;
   padding: 0.16px 16px;
 }
-/* .animate {
-  animation-duration: 0.6s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: unset;
-} */
-/* .Overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rebeccapurple;
-} */
+
 
 .buttonsection {
   margin-top: 16px !important;

@@ -1,6 +1,6 @@
-import { useState } from "react";
+
 import "./Inbox.css";
-const Inbox = (props) => {
+const Inbox = () => {
   const onMail = (e, personName) => {
     var i;
     var x = document.getElementsByClassName("person");
@@ -16,7 +16,7 @@ const Inbox = (props) => {
   };
   return (
     <>
-      {/* <div>hello</div> */}
+      
       <a
         href="#!"
         className="demo1 test activegrey "
